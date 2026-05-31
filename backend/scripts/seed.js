@@ -4,15 +4,15 @@ const bcrypt = require('bcryptjs');
 
 const products = [
   {
-    name: "Himalayan Pink Salt Roasted Makhana",
-    description: "Sustainably harvested foxnuts slow-roasted to absolute crunchiness in 100% pure organic cow ghee and hand-tossed with natural Himalayan Pink Salt. A light, airy, and high-protein snack for guilt-free munching.",
+    name: "Mithila Plain Makhana",
+    description: "Naturally rich in protein and calcium, these premium fox nuts are carefully selected and roasted to preserve their authentic taste, crunch, and nutrition.",
     price: 180,
     compareAtPrice: 220,
     category: "Makhana",
-    image: "https://images.unsplash.com/photo-1608686207856-001b95cf60ca?w=600&auto=format&fit=crop&q=80",
+    image: "/makana.png",
     images: [
-      "https://images.unsplash.com/photo-1608686207856-001b95cf60ca?w=600&auto=format&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=600&auto=format&fit=crop&q=80"
+      "/makana.png",
+      "makana2.png"
     ],
     rating: 4.8,
     reviewsCount: 42,

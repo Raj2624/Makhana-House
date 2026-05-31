@@ -30,10 +30,10 @@ const Homepage = () => {
   }, []);
 
   const categories = [
-    { name: 'Makhana', count: '3 Flavors', bg: 'https://images.unsplash.com/photo-1608686207856-001b95cf60ca?w=400&auto=format&fit=crop' },
-    { name: 'Seeds', count: '3 Super Seeds', bg: 'https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?w=400&auto=format&fit=crop' },
-    { name: 'Trail Mixes', count: 'Royal Blend', bg: 'https://images.unsplash.com/photo-1511124699504-7625ec3a2428?w=400&auto=format&fit=crop' },
-    { name: 'Dry Fruits', count: 'Honey Glazed', bg: 'https://images.unsplash.com/photo-1596547609652-9cf5d8d76921?w=400&auto=format&fit=crop' },
+    { name: 'Makhana', count: '3 Flavors', bg: '/makana.png' },
+    { name: 'Seeds', count: '3 Super Seeds', bg: 'seeds.jpeg' },
+    { name: 'Trail Mixes', count: 'Royal Blend', bg: 'trailmix.jpeg' },
+    { name: 'Dry Fruits', count: 'Honey Glazed', bg: 'test.jpeg' },
   ];
 
   const reviews = [
@@ -58,11 +58,10 @@ const Homepage = () => {
   ];
 
   const instagramPhotos = [
-    "https://images.unsplash.com/photo-1608686207856-001b95cf60ca?w=300&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?w=300&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1511124699504-7625ec3a2428?w=300&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=300&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1596547609652-9cf5d8d76921?w=300&auto=format&fit=crop",
+     "/makana.png",
+    "/seeds.jpeg",
+    "/trailmix.jpeg",
+    "/farming.png",
     "https://images.unsplash.com/photo-1621939514649-280e2ee37f6a?w=300&auto=format&fit=crop"
   ];
 
@@ -118,16 +117,16 @@ const Homepage = () => {
                   Featured Launch
                 </span>
                 <h3 className="font-display text-xl font-bold mt-2 text-brand-light">
-                  Himalayan Pink Salt Makhana
+                  Mithila Plain Makhana
                 </h3>
                 <p className="text-xs text-brand-light/60 mt-1 leading-relaxed">
-                  Slow-roasted in organic cow ghee, seasoned with hand-milled Himalayan pink crystals. High calcium, high protein.
+                  Naturally rich in protein and calcium, these premium fox nuts are carefully selected and roasted to preserve their authentic taste, crunch, and nutrition.
                 </p>
               </div>
 
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img 
-                src="https://images.unsplash.com/photo-1608686207856-001b95cf60ca?w=400&auto=format&fit=crop" 
+                src="/makhanstart.png" 
                 alt="Pink Salt Makhana Bowl" 
                 className="w-full h-44 object-cover rounded-xl mt-6 border border-white/5 shadow-inner"
               />
